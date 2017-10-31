@@ -1,10 +1,10 @@
 
 package BinaryTree;
 
-public class BinaryTree1 implements Cloneable{
+public class BinaryTree implements Cloneable{
      public BinaryTreeNode root;
     
-     public BinaryTree1(){
+     public BinaryTree(){
          root = null;
      }
      
@@ -99,12 +99,12 @@ public class BinaryTree1 implements Cloneable{
         }
     }
     
-     public void cloneToPostOrder(BinaryTree1 a){
+     public void cloneToPostOrder(BinaryTree a){
         clone();
         a.postorder();
      }
      
-     public void cloneToPreOrder(BinaryTree1 a){
+     public void cloneToPreOrder(BinaryTree a){
         clone();
         a.preorder();
      }
