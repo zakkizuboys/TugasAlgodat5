@@ -7,6 +7,7 @@ public class DriverBinaryTree1 {
         bt.insert(1);
         bt.insert(2);
         bt.insert(3);
+        
         //tampilkan preorder, postorder dan inorder dari Object BT
         System.out.println("PreOrder");
         bt.preorder();
@@ -18,10 +19,12 @@ public class DriverBinaryTree1 {
         bt.inorder();
         System.out.println("");
         BinaryTree ba = new BinaryTree();
+        
         //ClonetoPostOrder
         System.out.println("ClonetoPostOrder");
         ba.cloneToPostOrder(bt);
         System.out.println();
+        
         //ClonetoPreOrder
         System.out.println("ClonetoPreOrder");
         ba.cloneToPreOrder(bt);
